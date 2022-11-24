@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">meteo</string>
+    <string name="app_text">meteo widget</string>
+    <string name="title_activity_main">mai multe detalii</string>
+    <string name="action_settings">setări</string>
+
+    <string name="conf_country">Țară:</string>
+    <string name="conf_city_hint">Selectați una dintre urmatoarele să se specifice orasului</string>
+    <string name="conf_city_name">Numele orașului:</string>
+    <string name="conf_city_id">Orasului ID:</string>
+    <string name="conf_city_long">longitudine:</string>
+    <string name="conf_city_lat">latitudine:</string>
+    <string name="conf_unit">sistem de unitate</string>
+    <string name="conf_unit_metric">metrica</string>
+    <string name="conf_unit_imperial">imperiala</string>
+    <string name="conf_button_save">Salvați setările</string>
+
+    <string name="ex_temperature">temperatură</string>
+    <string name="ex_wind_speed">Viteza vântului</string>
+    <string name="ex_humidity">umiditate</string>
+    <string name="ex_sunrise">răsărit</string>
+    <string name="ex_sunset">apus</string>
+    <string name="ex_longtitude">longitudine</string>
+    <string name="ex_latitude">latitudine</string>
+    <string name="ex_condition">condiție</string>
+    <string name="ex_description">descriere</string>
+    <string name="ex_pressure">presiune</string>
+    <string name="ex_temp_min">temperatura minimă</string>
+    <string name="ex_temp_max">temperatura maximă</string>
+    <string name="ex_wind_degree">gradul de vânt</string>
+    <string name="ex_cloud_percentage">nori procentaj</string>
+    <string name="ex_citycode">cod de meteo</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">m/s</string>
+
+    <string-array name="countries">
+        <item>Insula Ascension</item>
+        <item>Andorra</item>
+        <item>Emiratele Arabe Unite</item>
+        <item>Afganistan</item>
+        <item>Antigua și Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Antilele Olandeze</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>Samoa Americană</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <item>Insulele Aland</item>
+        <item>Azerbaidjan</item>
+        <item>Bosnia și Herțegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgia</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaria</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>Sfântul Bartolomeu</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivia</item>
+        <item>Insulele Caraibe Olandeze</item>
+        <item>Brazilia</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Insula Bouvet</item>
+        <item>Botswana</item>
+        <item>Bielorusia</item>
+        <item>Belize</item>
+        <item>Canada</item>
+        <item>Insulele Cocos</item>
+        <item>Republica Democrată Congo</item>
+        <item>Republica Centrafricană</item>
+        <item>Congo [Republică]</item>
+        <item>Elveția</item>
+        <item>Coasta de Fildeș</item>
+        <item>Insulele Cook</item>
+        <item>Chile</item>
+        <item>Camerun</item>
+        <item>China</item>
+        <item>Columbia</item>
+        <item>Insula Clipperton</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Capul Verde</item>
+        <item>Curaçao</item>
+        <item>Insula Christmas</item>
+        <item>Cipru</item>
+        <item>Republica Cehă</item>
+        <item>Germania</item>
+        <item>Diego Garcia</item>
+        <item>Djibouti</item>
+        <item>Danemarca</item>
+        <item>Dominica</item>
+        <item>Republica Dominicană</item>
+        <item>Algeria</item>
+        <item>Ceuta şi Melilla</item>
+        <item>Ecuador</item>
+        <item>Estonia</item>
+        <item>Egipt</item>
+        <item>Sahara Occidentală</item>
+        <item>Eritreea</item>
+        <item>Spania</item>
+        <item>Etiopia</item>
+        <item>Uniunea Europeană</item>
+        <item>Finlanda</item>
+        <item>Fiji</item>
+        <item>Insulele Falkland</item>
+        <item>Micronezia</item>
+        <item>Insulele Feroe</item>
+        <item>Franța</item>
+        <item>Gabon</item>
+        <item>Marea Britanie</item>
+        <item>Grenada</item>
+        <item>Georgia</item>
+        <item>Guyana Franceză</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Groenlanda</item>
+        <item>Gambia</item>
+        <item>Guineea</item>
+        <item>Guadelupa</item>
+        <item>Guineea Ecuatorială</item>
+        <item>Grecia</item>
+        <item>Georgia de Sud şi Insulele Sandwich de Sud</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guineea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hong Kong</item>
+        <item>Insula Heard și Insulele McDonald</item>
+        <item>Honduras</item>
+        <item>Croația</item>
+        <item>Haiti</item>
+        <item>Ungaria</item>
+        <item>Insulele Canare</item>
+        <item>Indonezia</item>
+        <item>Irlanda</item>
+        <item>Israel</item>
+        <item>Insula Man</item>
+        <item>India</item>
+        <item>Teritoriul Britanic din Oceanul Indian</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Islanda</item>
+        <item>Italia</item>
+        <item>Jersey</item>
+        <item>Jamaica</item>
+        <item>Iordania</item>
+        <item>Japonia</item>
+        <item>Kenya</item>
+        <item>Kârgâzstan</item>
+        <item>Cambodgia</item>
+        <item>Kiribati</item>
+        <item>Comore</item>
+        <item>Sfântul Kitts și Nevis</item>
+        <item>Coreea de Nord</item>
+        <item>Coreea de Sud</item>
+        <item>Kuweit</item>
+        <item>Insulele Cayman</item>
+        <item>Kazahstan</item>
+        <item>Laos</item>
+        <item>Liban</item>
+        <item>Sfânta Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Lituania</item>
+        <item>Luxemburg</item>
+        <item>Letonia</item>
+        <item>Libia</item>
+        <item>Maroc</item>
+        <item>Monaco</item>
+        <item>Republica Moldova</item>
+        <item>Muntenegru</item>
+        <item>Sfântul Martin</item>
+        <item>Madagascar</item>
+        <item>Insulele Marshall</item>
+        <item>Macedonia</item>
+        <item>Mali</item>
+        <item>Myanmar</item>
+        <item>Mongolia</item>
+        <item>Macao</item>
+        <item>Insulele Mariane de Nord</item>
+        <item>Martinica</item>
+        <item>Mauritania</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldive</item>
+        <item>Malawi</item>
+        <item>Mexic</item>
+        <item>Malaezia</item>
+        <item>Mozambic</item>
+        <item>Namibia</item>
+        <item>Noua Caledonie</item>
+        <item>Niger</item>
+        <item>Insulele Norfolk</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Olanda</item>
+        <item>Norvegia</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>Noua Zeelandă</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Polinezia Franceză</item>
+        <item>Papua Noua Guinee</item>
+        <item>Filipine</item>
+        <item>Pakistan</item>
+        <item>Polonia</item>
+        <item>Sfântul Pierre și Miquelon</item>
+        <item>Pitcairn</item>
+        <item>Porto Rico</item>
+        <item>Teritoriul Palestinian</item>
+        <item>Portugalia</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>Oceania Periferică</item>
+        <item>Reunion</item>
+        <item>România</item>
+        <item>Serbia</item>
+        <item>Rusia</item>
+        <item>Rwanda</item>
+        <item>Arabia Saudită</item>
+        <item>Insulele Solomon</item>
+        <item>Seychelles</item>
+        <item>Sudan</item>
+        <item>Suedia</item>
+        <item>Singapore</item>
+        <item>Sfânta Elena</item>
+        <item>Slovenia</item>
+        <item>Svalbard și Jan Mayen</item>
+        <item>Slovacia</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Surinam</item>
+        <item>Sudanul de Sud</item>
+        <item>Sao Tome și Principe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Siria</item>
+        <item>Swaziland</item>
+        <item>Tristan da Cunha</item>
+        <item>Insulele Turks și Caicos</item>
+        <item>Ciad</item>
+        <item>Teritoriile Australe și Antarctice Franceze</item>
+        <item>Togo</item>
+        <item>Thailanda</item>
+        <item>Tadjikistan</item>
+        <item>Tokelau</item>
+        <item>Timorul de Est</item>
+        <item>Turkmenistan</item>
+        <item>Tunisia</item>
+        <item>Tonga</item>
+        <item>Turcia</item>
+        <item>Trinidad-Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Ucraina</item>
+        <item>Uganda</item>
+        <item>Insulele Minore Îndepărtate ale Statelor Unite ale Americii</item>
+        <item>Statele Unite ale Americii</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vatican</item>
+        <item>Sfântul Vincent și Grenadine</item>
+        <item>Venezuela</item>
+        <item>Insulele Virgine Britanice</item>
+        <item>Insulele Virgine S.U.A.</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis și Futuna</item>
+        <item>Samoa</item>
+        <item>Yemen</item>
+        <item>Mayotte</item>
+        <item>Africa de Sud</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Regiune necunoscută</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>furtună cu slab ploaie</item>
+        <item>furtună cu ploaie</item>
+        <item>furtună cu ploaie puternică</item>
+        <item>furtună slab</item>
+        <item>furtună</item>
+        <item>furtună grea</item>
+        <item>furtună zdrențuită</item>
+        <item>furtună cu burniță ușoară</item>
+        <item>furtună cu burniță</item>
+        <item>furtună cu burniță grele</item>
+        <item>burniță intensitatea luminii</item>
+        <item>burniță</item>
+        <item>burniță intensitate mare</item>
+        <item>ploaie de intensitate burniță</item>
+        <item>ploaie burniță</item>
+        <item>grele de ploaie intensitate burniță</item>
+        <item>ploaie duș și burniță</item>
+        <item>ploaie duș grele și burniță</item>
+        <item>burniță duș</item>
+        <item>slab ploaie</item>
+        <item>ploaie moderată</item>
+        <item>ploaie de intensitate mare</item>
+        <item>ploaie foarte grea</item>
+        <item>ploaie extremă</item>
+        <item>ploaie congelare</item>
+        <item>ploaie duș intensitate</item>
+        <item>shower rain</item>
+        <item>grele de ploaie duș intensitate</item>
+        <item>ploaie duș zdrențuită</item>
+        <item>ninsoare</item>
+        <item>zăpadă</item>
+        <item>zăpadă grea</item>
+        <item>lapoviță</item>
+        <item>lapoviță duș</item>
+        <item>slab ploaie și zăpadă</item>
+        <item>ploaie și zăpadă</item>
+        <item>zăpadă dus ușor</item>
+        <item>zăpadă duș</item>
+        <item>zăpadă duș grele</item>
+        <item>ceață</item>
+        <item>fum</item>
+        <item>ceață</item>
+        <item>Nisip / praf Vârtejuri</item>
+        <item>ceață</item>
+        <item>nisip</item>
+        <item>praf</item>
+        <item>CENUȘĂ VULCANICĂ</item>
+        <item>VIJELII</item>
+        <item>TORNADĂ</item>
+        <item>cerul este senin</item>
+        <item>Câțiva nori</item>
+        <item>Cer acoperit</item>
+        <item>nori dispersați</item>
+        <item>acoperit de nori</item>
+        <item>tornadă</item>
+        <item>furtună tropicală</item>
+        <item>uragan</item>
+        <item>frig</item>
+        <item>cu căldură</item>
+        <item>bătut de vânturi</item>
+        <item>grindină</item>
+        <item>asfinţit</item>
+        <item>calm</item>
+        <item>briză ușoară</item>
+        <item>Briza blând</item>
+        <item>briza moderat</item>
+        <item>briză proaspătă</item>
+        <item>briza puternică</item>
+        <item>Mare vânt, furtună în apropiere</item>
+        <item>furtună</item>
+        <item>furtună severă</item>
+        <item>furtună</item>
+        <item>Furtuna violentă</item>
+        <item>uragan</item>
+    </string-array>
+
+</resources>

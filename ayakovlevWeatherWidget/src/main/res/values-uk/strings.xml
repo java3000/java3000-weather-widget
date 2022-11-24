@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Погода</string>
+    <string name="app_text">Погодний віджет</string>
+    <string name="title_activity_main">Детальніше</string>
+    <string name="action_settings">налаштування</string>
+
+    <string name="conf_country">Країна:</string>
+    <string name="conf_city_hint">Виберіть одне зі значень нижче для вказівки міста</string>
+    <string name="conf_city_name">Назва міста:</string>
+    <string name="conf_city_id">Місто ID:</string>
+    <string name="conf_city_long">Довгота:</string>
+    <string name="conf_city_lat">широта:</string>
+    <string name="conf_unit">метрична система</string>
+    <string name="conf_unit_metric">метрика</string>
+    <string name="conf_unit_imperial">імперський</string>
+    <string name="conf_button_save">зберегти налаштування</string>
+
+    <string name="ex_temperature">температура</string>
+    <string name="ex_wind_speed">швидкість вітру</string>
+    <string name="ex_humidity">Вологість</string>
+    <string name="ex_sunrise">Схід</string>
+    <string name="ex_sunset">захід</string>
+    <string name="ex_longtitude">довгота</string>
+    <string name="ex_latitude">широта</string>
+    <string name="ex_condition">стан</string>
+    <string name="ex_description">опис</string>
+    <string name="ex_pressure">тиск</string>
+    <string name="ex_temp_min">мінімальна температура</string>
+    <string name="ex_temp_max">Максимальна температура</string>
+    <string name="ex_wind_degree">ступінь Вітер</string>
+    <string name="ex_cloud_percentage">Облік відсоток</string>
+    <string name="ex_citycode">Погодний код</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">м/с</string>
+
+    <string-array name="countries">
+        <item>Острів Вознесіння</item>
+        <item>Андорра</item>
+        <item>Обʼєднані Арабські Емірати</item>
+        <item>Афганістан</item>
+        <item>Антигуа і Барбуда</item>
+        <item>Ангілья</item>
+        <item>Албанія</item>
+        <item>Вірменія</item>
+        <item>Нідерландські Антильські Острови</item>
+        <item>Ангола</item>
+        <item>Антарктида</item>
+        <item>Аргентина</item>
+        <item>Американське Самоа</item>
+        <item>Австрія</item>
+        <item>Австралія</item>
+        <item>Аруба</item>
+        <item>Аландські острови</item>
+        <item>Азербайджан</item>
+        <item>Боснія і Герцоговина</item>
+        <item>Барбадос</item>
+        <item>Бангладеш</item>
+        <item>Бельгія</item>
+        <item>Буркіна-Фасо</item>
+        <item>Болгарія</item>
+        <item>Бахрейн</item>
+        <item>Бурунді</item>
+        <item>Бенін</item>
+        <item>Острів Святого Бартоломея</item>
+        <item>Бермуди</item>
+        <item>Бруней</item>
+        <item>Болівія</item>
+        <item>Нідерландські Карибські островиd</item>
+        <item>Бразилія</item>
+        <item>Багами</item>
+        <item>Бутан</item>
+        <item>Острів Буве</item>
+        <item>Ботсвана</item>
+        <item>Білорусь</item>
+        <item>Беліз</item>
+        <item>Канада</item>
+        <item>Кокосові острови</item>
+        <item>Конґо [ДРК]</item>
+        <item>Центральноафриканська Республіка</item>
+        <item>Конґо [Республіка]</item>
+        <item>Швейцарія</item>
+        <item>Кот д’Івуар</item>
+        <item>Острови Кука</item>
+        <item>Чилі</item>
+        <item>Камерун</item>
+        <item>Китай</item>
+        <item>Колумбія</item>
+        <item>Острів Кліппертон</item>
+        <item>Коста-Рика</item>
+        <item>Куба</item>
+        <item>Кабо-Верде</item>
+        <item>Кюрасао</item>
+        <item>Острів Різдва</item>
+        <item>Кіпр</item>
+        <item>Чеська республіка</item>
+        <item>Німеччина</item>
+        <item>Дієґо-Ґарсія</item>
+        <item>Джібуті</item>
+        <item>Данія</item>
+        <item>Домінік</item>
+        <item>Домініканська Республіка</item>
+        <item>Алжир</item>
+        <item>Сеута і Мелілья</item>
+        <item>Еквадор</item>
+        <item>Естонія</item>
+        <item>Єгипет</item>
+        <item>Західна Сахара</item>
+        <item>Еритрея</item>
+        <item>Іспанія</item>
+        <item>Ефіопія</item>
+        <item>Європейський Союз</item>
+        <item>Фінляндія</item>
+        <item>Фіджі</item>
+        <item>Фолклендські острови</item>
+        <item>Мікронезія</item>
+        <item>Фарерські острови</item>
+        <item>Франція</item>
+        <item>Габон</item>
+        <item>Велика Британія</item>
+        <item>Гренада</item>
+        <item>Грузія</item>
+        <item>Французька Гвіана</item>
+        <item>Гернсі</item>
+        <item>Гана</item>
+        <item>Гібралтар</item>
+        <item>Гренландія</item>
+        <item>Гамбія</item>
+        <item>Гвінея</item>
+        <item>Гваделупа</item>
+        <item>Екваторіальна Гвінея</item>
+        <item>Греція</item>
+        <item>Південна Джорджія та Південні Сандвічеві Острови</item>
+        <item>Гватемала</item>
+        <item>Гуам</item>
+        <item>Гвінея-Біссау</item>
+        <item>Гайана</item>
+        <item>Гонконґ</item>
+        <item>Острови Херд і Мак-Дональд</item>
+        <item>Гондурас</item>
+        <item>Хорватія</item>
+        <item>Гаїті</item>
+        <item>Угорщина</item>
+        <item>Канарські острови</item>
+        <item>Індонезія</item>
+        <item>Ірландія</item>
+        <item>Ізраїль</item>
+        <item>Острів Мен</item>
+        <item>Індія</item>
+        <item>Британські території Індійського океану</item>
+        <item>Ірак</item>
+        <item>Іран</item>
+        <item>Ісландія</item>
+        <item>Італія</item>
+        <item>Джерсі</item>
+        <item>Ямайка</item>
+        <item>Йорданія</item>
+        <item>Японія</item>
+        <item>Кенія</item>
+        <item>Киргизстан</item>
+        <item>Камбоджа</item>
+        <item>Кірибаті</item>
+        <item>Коморські Острови</item>
+        <item>Сент-Кітс і Невіс</item>
+        <item>Північна Корея</item>
+        <item>Південна Корея</item>
+        <item>Кувейт</item>
+        <item>Кайманові острови</item>
+        <item>Казахстан</item>
+        <item>Лаос</item>
+        <item>Ліван</item>
+        <item>Сент-Люсія</item>
+        <item>Ліхтенштейн</item>
+        <item>Шрі-Ланка</item>
+        <item>Ліберія</item>
+        <item>Лесото</item>
+        <item>Литва</item>
+        <item>Люксембург</item>
+        <item>Латвія</item>
+        <item>Лівія</item>
+        <item>Марокко</item>
+        <item>Монако</item>
+        <item>Молдова</item>
+        <item>Чорногорія</item>
+        <item>Острів Святого Мартіна</item>
+        <item>Мадагаскар</item>
+        <item>Маршаллові Острови</item>
+        <item>Македонія</item>
+        <item>Малі</item>
+        <item>Мʼянма [Бірма]</item>
+        <item>Монголія</item>
+        <item>Макао</item>
+        <item>Північні Маріанські Острови</item>
+        <item>Мартиніка</item>
+        <item>Мавританія</item>
+        <item>Монсеррат</item>
+        <item>Мальта</item>
+        <item>Маврикій</item>
+        <item>Мальдіви</item>
+        <item>Малаві</item>
+        <item>Мексика</item>
+        <item>Малайзія</item>
+        <item>Мозамбік</item>
+        <item>Намібія</item>
+        <item>Нова Каледонія</item>
+        <item>Нігер</item>
+        <item>Острів Норфолк</item>
+        <item>Нігерія</item>
+        <item>Нікарагуа</item>
+        <item>Нідерланди</item>
+        <item>Норвегія</item>
+        <item>Непал</item>
+        <item>Науру</item>
+        <item>Нія</item>
+        <item>Нова Зеландія</item>
+        <item>Оман</item>
+        <item>Панама</item>
+        <item>Перу</item>
+        <item>Французька Полінезія</item>
+        <item>Папуа Нова Гвінея</item>
+        <item>Філіппіни</item>
+        <item>Пакистан</item>
+        <item>Польща</item>
+        <item>Сен-Пʼєр і Мікелон</item>
+        <item>Острови Піткерн</item>
+        <item>Пуерто-Ріко</item>
+        <item>Палестина</item>
+        <item>Португалія</item>
+        <item>Палау</item>
+        <item>Парагвай</item>
+        <item>Катар</item>
+        <item>Інша Океанія</item>
+        <item>Реюньйон</item>
+        <item>Румунія</item>
+        <item>Сербія</item>
+        <item>Росія</item>
+        <item>Руанда</item>
+        <item>Саудівська Аравія</item>
+        <item>Соломонові Острови</item>
+        <item>Сейшели</item>
+        <item>Судан</item>
+        <item>Швеція</item>
+        <item>Сінгапур</item>
+        <item>Острів Святої Єлени</item>
+        <item>Словенія</item>
+        <item>Острови Свальбард та Ян-Маєн</item>
+        <item>Словакія</item>
+        <item>Сьєрра-Леоне</item>
+        <item>Сан-Марино</item>
+        <item>Сенегал</item>
+        <item>Сомалі</item>
+        <item>Суринам</item>
+        <item>Південний Судан</item>
+        <item>Сан-Томе і Прінсіпі</item>
+        <item>Сальвадор</item>
+        <item>Сінт-Мартен</item>
+        <item>Сирія</item>
+        <item>Свазіленд</item>
+        <item>Трістан-да-Кунья</item>
+        <item>Теркс і Кайкос</item>
+        <item>Чад</item>
+        <item>Французькі Південні Території</item>
+        <item>Того</item>
+        <item>Таїланд</item>
+        <item>Таджикистан</item>
+        <item>Токелау</item>
+        <item>Східний Тімор</item>
+        <item>Туркменистан</item>
+        <item>Туніс</item>
+        <item>Тонга</item>
+        <item>Туреччина</item>
+        <item>Тринідад і Тобаго</item>
+        <item>Тувалу</item>
+        <item>Тайвань</item>
+        <item>Танзанія</item>
+        <item>Україна</item>
+        <item>Уганда</item>
+        <item>Віддалені Острови США</item>
+        <item>США</item>
+        <item>Уругвай</item>
+        <item>Узбекистан</item>
+        <item>Ватикан</item>
+        <item>Сент-Вінсент і Гренадини</item>
+        <item>Венесуела</item>
+        <item>Віргінські острови Британії</item>
+        <item>Віргінські острови США</item>
+        <item>Вʼєтнам</item>
+        <item>Вануату</item>
+        <item>Уолліс і Футуна</item>
+        <item>Самоа</item>
+        <item>Ємен</item>
+        <item>Майот</item>
+        <item>ПАР</item>
+        <item>Замбія</item>
+        <item>Зімбабве</item>
+        <item>Невідомий регіон</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>гроза з невеликим дощем</item>
+        <item>гроза з дощем</item>
+        <item>гроза з проливним дощем</item>
+        <item>легка гроза</item>
+        <item>гроза</item>
+        <item>сильна гроза</item>
+        <item>рвана гроза</item>
+        <item>гроза з легким дощем</item>
+        <item>гроза з дощем</item>
+        <item>гроза з сильним дощем</item>
+        <item>легки дощ</item>
+        <item>мряка</item>
+        <item>інтенсивний дощ</item>
+        <item>невеликий дощ</item>
+        <item>невеликий дощ</item>
+        <item>дуже дрібний дощ</item>
+        <item>зливни дощ і мряка</item>
+        <item>дуже зливни дощ і мряка</item>
+        <item>зливна мряка</item>
+        <item>невеликий дощ</item>
+        <item>помірний дощ</item>
+        <item>сильний дощ</item>
+        <item>дуже сильний дощ</item>
+        <item>крайній дощ</item>
+        <item>крижаний дощ</item>
+        <item>невелика злива</item>
+        <item>злива</item>
+        <item>дуже сильна злива</item>
+        <item>рвана злива</item>
+        <item>невеликий сніг</item>
+        <item>сніг</item>
+        <item>сильний снігопад</item>
+        <item>дощ зі снігом</item>
+        <item>дощ зі снігом</item>
+        <item>невеликий дощ і сніг</item>
+        <item>ляпавіця</item>
+        <item>невеликий моросящій сніг</item>
+        <item>моросящій сніг</item>
+        <item>сильний сніг</item>
+        <item>туман</item>
+        <item>дім</item>
+        <item>серпанок</item>
+        <item>піщані / пилові вихори</item>
+        <item>туман</item>
+        <item>пісок</item>
+        <item>пил</item>
+        <item>ВУЛКАНІЧНИЙ ПОПІЛ</item>
+        <item>ШКВАЛИ</item>
+        <item>ТОРНАДО</item>
+        <item>небо ясно</item>
+        <item>малохмарно</item>
+        <item>розірвані хмари</item>
+        <item>хмарно з проясненнями</item>
+        <item>похмуро з проясненнями</item>
+        <item>торнадо</item>
+        <item>тропічний шторм</item>
+        <item>буревій</item>
+        <item>холод</item>
+        <item>спека</item>
+        <item>вітряно</item>
+        <item>град</item>
+        <item>закат</item>
+        <item>безвітря</item>
+        <item>легкий вітер</item>
+        <item>легіт</item>
+        <item>помірний вітер</item>
+        <item>Свіжий вітер</item>
+        <item>сильний вітер</item>
+        <item>Сильний вітер, недалеко шторм</item>
+        <item>шторм</item>
+        <item>важкий шторм</item>
+        <item>шторм</item>
+        <item>сильний шторм</item>
+        <item>ураган</item>
+    </string-array>
+
+</resources>

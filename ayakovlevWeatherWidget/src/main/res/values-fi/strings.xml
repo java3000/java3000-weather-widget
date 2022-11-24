@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sää</string>
+    <string name="app_text">Sää widgetin</string>
+    <string name="title_activity_main">lisätietoja Viitenro</string>
+    <string name="action_settings">asetusten</string>
+
+    <string name="conf_country">Maa:</string>
+    <string name="conf_city_hint">Valitaksesi yksi seuraavista määrittää kaupunki</string>
+    <string name="conf_city_name">Kaupungin nimi:</string>
+    <string name="conf_city_id">Kaupungin ID: </string>
+    <string name="conf_city_long">Pituusaste:</string>
+    <string name="conf_city_lat">leveysaste:</string>
+    <string name="conf_unit">yksikköjärjestelmän</string>
+    <string name="conf_unit_metric">metrijärjestelmän</string>
+    <string name="conf_unit_imperial">keisarillinen</string>
+    <string name="conf_button_save">Tallenna aset</string>
+
+    <string name="ex_temperature">lämpötila</string>
+    <string name="ex_wind_speed">Tuuli nopeus</string>
+    <string name="ex_humidity">kosteus</string>
+    <string name="ex_sunrise">auringonnousu</string>
+    <string name="ex_sunset">auringonlasku</string>
+    <string name="ex_longtitude">pituusaste</string>
+    <string name="ex_latitude">leveysaste</string>
+    <string name="ex_condition">ehto</string>
+    <string name="ex_description">kuvaus</string>
+    <string name="ex_pressure">Ilmanpaine</string>
+    <string name="ex_temp_min">minimaalinen lämpötilan</string>
+    <string name="ex_temp_max">maksimilämpötila</string>
+    <string name="ex_wind_degree">Tuuli tutkinto</string>
+    <string name="ex_cloud_percentage">pilvi prosenttiosuus</string>
+    <string name="ex_citycode">Sää-koodi</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">m/s</string>
+
+    <string-array name="countries">
+        <item>Ascension-saari</item>
+        <item>Andorra</item>
+        <item>Arabiemiirikunnat</item>
+        <item>Afganistan</item>
+        <item>Antigua ja Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Alankomaiden Antillit</item>
+        <item>Angola</item>
+        <item>Antarktis</item>
+        <item>Argentiina</item>
+        <item>Amerikan Samoa</item>
+        <item>Itävalta</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <item>Ahvenanmaa</item>
+        <item>Azerbaidžan</item>
+        <item>Bosnia ja Hertsegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgia</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaria</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>Saint-Barthélemy</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivia</item>
+        <item>Karibian Alankomaat</item>
+        <item>Brasilia</item>
+        <item>Bahama</item>
+        <item>Bhutan</item>
+        <item>Bouvet’nsaari</item>
+        <item>Botswana</item>
+        <item>Valko-Venäjä</item>
+        <item>Belize</item>
+        <item>Kanada</item>
+        <item>Kookossaaret [Keelingsaaret]</item>
+        <item>Kongon demokraattinen tasavalta</item>
+        <item>Keski-Afrikan tasavalta</item>
+        <item>Kongon tasavalta</item>
+        <item>Sveitsi</item>
+        <item>Côte d\'Ivoire</item>
+        <item>Cookinsaaret</item>
+        <item>Chile</item>
+        <item>Kamerun</item>
+        <item>Kiina</item>
+        <item>Kolumbia</item>
+        <item>Clippertoninsaari</item>
+        <item>Costa Rica</item>
+        <item>Kuuba</item>
+        <item>Kap Verde</item>
+        <item>Curaçao</item>
+        <item>Joulusaari</item>
+        <item>Kypros</item>
+        <item>Tšekki</item>
+        <item>Saksa</item>
+        <item>Diego Garcia</item>
+        <item>Djibouti</item>
+        <item>Tanska</item>
+        <item>Dominica</item>
+        <item>Dominikaaninen tasavalta</item>
+        <item>Algeria</item>
+        <item>Ceuta ja Melilla</item>
+        <item>Ecuador</item>
+        <item>Viro</item>
+        <item>Egypti</item>
+        <item>Länsi-Sahara</item>
+        <item>Eritrea</item>
+        <item>Espanja</item>
+        <item>Etiopia</item>
+        <item>Euroopan unioni</item>
+        <item>Suomi</item>
+        <item>Fidži</item>
+        <item>Falklandinsaaret</item>
+        <item>Mikronesian liittovaltio</item>
+        <item>Färsaaret</item>
+        <item>Ranska</item>
+        <item>Gabon</item>
+        <item>Britannia</item>
+        <item>Grenada</item>
+        <item>Georgia</item>
+        <item>Ranskan Guayana</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grönlanti</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Päiväntasaajan Guinea</item>
+        <item>Kreikka</item>
+        <item>Etelä-Georgia ja Eteläiset Sandwichsaaret</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hongkong</item>
+        <item>Heard- ja McDonaldinsaaret</item>
+        <item>Honduras</item>
+        <item>Kroatia</item>
+        <item>Haiti</item>
+        <item>Unkari</item>
+        <item>Kanariansaaret</item>
+        <item>Indonesia</item>
+        <item>Irlanti</item>
+        <item>Israel</item>
+        <item>Mansaari</item>
+        <item>Intia</item>
+        <item>Brittiläinen Intian valtameren alue</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Islanti</item>
+        <item>Italia</item>
+        <item>Jersey</item>
+        <item>Jamaika</item>
+        <item>Jordania</item>
+        <item>Japani</item>
+        <item>Kenia</item>
+        <item>Kirgisia</item>
+        <item>Kambodža</item>
+        <item>Kiribati</item>
+        <item>Komorit</item>
+        <item>Saint Kitts ja Nevis</item>
+        <item>Pohjois-Korea</item>
+        <item>Etelä-Korea</item>
+        <item>Kuwait</item>
+        <item>Caymansaaret</item>
+        <item>Kazakstan</item>
+        <item>Laos</item>
+        <item>Libanon</item>
+        <item>Saint Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Liettua</item>
+        <item>Luxemburg</item>
+        <item>Latvia</item>
+        <item>Libya</item>
+        <item>Marokko</item>
+        <item>Monaco</item>
+        <item>Moldova</item>
+        <item>Montenegro</item>
+        <item>Saint-Martin</item>
+        <item>Madagaskar</item>
+        <item>Marshallinsaaret</item>
+        <item>Makedonia</item>
+        <item>Mali</item>
+        <item>Myanmar [Burma]</item>
+        <item>Mongolia</item>
+        <item>Macao</item>
+        <item>Pohjois-Mariaanit</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Malediivit</item>
+        <item>Malawi</item>
+        <item>Meksiko</item>
+        <item>Malesia</item>
+        <item>Mosambik</item>
+        <item>Namibia</item>
+        <item>Uusi-Kaledonia</item>
+        <item>Niger</item>
+        <item>Norfolkinsaari</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Alankomaat</item>
+        <item>Norja</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>Uusi-Seelanti</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Ranskan Polynesia</item>
+        <item>Papua-Uusi-Guinea</item>
+        <item>Filippiinit</item>
+        <item>Pakistan</item>
+        <item>Puola</item>
+        <item>Saint-Pierre ja Miquelon</item>
+        <item>Pitcairn</item>
+        <item>Puerto Rico</item>
+        <item>Palestiina</item>
+        <item>Portugali</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>ulkomeri</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Venäjä</item>
+        <item>Ruanda</item>
+        <item>Saudi-Arabia</item>
+        <item>Salomonsaaret</item>
+        <item>Seychellit</item>
+        <item>Ruotsi</item>
+        <item>Sudan</item>
+        <item>Singapore</item>
+        <item>Saint Helena</item>
+        <item>Slovenia</item>
+        <item>Huippuvuoret ja Jan Mayen</item>
+        <item>Slovakia</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Surinam</item>
+        <item>Etelä-Sudan</item>
+        <item>São Tomé ja Príncipe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Syyria</item>
+        <item>Swazimaa</item>
+        <item>Tristan da Cunha</item>
+        <item>Turks- ja Caicossaaret</item>
+        <item>Tšad</item>
+        <item>Ranskan ulkopuoliset eteläiset alueet</item>
+        <item>Togo</item>
+        <item>Thaimaa</item>
+        <item>Tadžikistan</item>
+        <item>Tokelau</item>
+        <item>Itä-Timor</item>
+        <item>Turkmenistan</item>
+        <item>Tunisia</item>
+        <item>Tonga</item>
+        <item>Turkki</item>
+        <item>Trinidad ja Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tansania</item>
+        <item>Ukraina</item>
+        <item>Uganda</item>
+        <item>Yhdysvaltain pienet erillissaaret</item>
+        <item>Yhdysvallat</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vatikaani</item>
+        <item>Saint Vincent ja Grenadiinit</item>
+        <item>Venezuela</item>
+        <item>Brittiläiset Neitsytsaaret</item>
+        <item>Yhdysvaltain Neitsytsaaret</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis ja Futuna</item>
+        <item>Samoa</item>
+        <item>Jemen</item>
+        <item>Mayotte</item>
+        <item>Etelä-Afrikka</item>
+        <item>Sambia</item>
+        <item>Zimbabwe</item>
+        <item>tuntematon alue</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>ukkosta ja vähäistä sadetta</item>
+        <item>ukonilma ja sadetta</item>
+        <item>ukonilma ja rankkasade</item>
+        <item>Heikkoa ukkosta</item>
+        <item>ukonilma</item>
+        <item>raskas ukonilma</item>
+        <item>repaleinen ukonilma</item>
+        <item>ukkosta ja pieni tihkusade</item>
+        <item>ukkosta ja tihkusadetta</item>
+        <item>ukonilma ja raskas tihkusade</item>
+        <item>valoteho tihkusade</item>
+        <item>tihkusade</item>
+        <item>raskaalla teholla tihkusadetta</item>
+        <item>valoteho tihkusadetta sade</item>
+        <item>tihkusadetta sade</item>
+        <item>raskaalla teholla tihkusadetta sade</item>
+        <item>suihku sade ja tihkusadetta</item>
+        <item>rankan sadekuuron ja tihkusadetta</item>
+        <item>suihku tihkusadetta</item>
+        <item>vähäistä sade</item>
+        <item>kohtalainen sade</item>
+        <item>raskaalla teholla sade</item>
+        <item>Rankka sade</item>
+        <item>äärimmäinen sade</item>
+        <item>jäätävää sadetta</item>
+        <item>valon voimakkuuden sadesuihkun</item>
+        <item>sadesuihkun</item>
+        <item>raskaalla teholla sadesuihkun</item>
+        <item>repaleinen sadesuihkun</item>
+        <item>vähäistä lumisadetta</item>
+        <item>lumi</item>
+        <item>raskas lumi</item>
+        <item>räntä</item>
+        <item>suihku räntä</item>
+        <item>kevyt sade ja lumi</item>
+        <item>sade ja lumi</item>
+        <item>valo suihku lumi</item>
+        <item>suihku lumi</item>
+        <item>rankan sadekuuron lumi</item>
+        <item>sumu</item>
+        <item>savu</item>
+        <item>usva</item>
+        <item>Hiekka / pölypyörteitä</item>
+        <item>sumu</item>
+        <item>hiekka</item>
+        <item>pöly</item>
+        <item>VULKAANISTA TUHKAA</item>
+        <item>PUUSKIA</item>
+        <item>PYÖRREMYRSKY</item>
+        <item>taivas on kirkas</item>
+        <item>muutamia pilviä</item>
+        <item>hajanaisia ​​pilviä</item>
+        <item>hajanaisia ​​pilviä</item>
+        <item>pilvinen pilvet</item>
+        <item>pyörremyrsky</item>
+        <item>trooppinen myrsky</item>
+        <item>rajumyrsky</item>
+        <item>kylmä</item>
+        <item>kuuma</item>
+        <item>tuulinen</item>
+        <item>rakeet</item>
+        <item>lasku</item>
+        <item>rauhallinen</item>
+        <item>Heikkoa tuulta</item>
+        <item>lempeä tuulta</item>
+        <item>Kova tuuli</item>
+        <item>Kohta friski</item>
+        <item>Kova tuuli</item>
+        <item>Kova tuuli, navakka tuuli</item>
+        <item>navakka tuuli</item>
+        <item>vaikea myrsky</item>
+        <item>myräkkä</item>
+        <item>väkivaltaisten myrsky</item>
+        <item>rajumyrsky</item>
+    </string-array>
+
+</resources>

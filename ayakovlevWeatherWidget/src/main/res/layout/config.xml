@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/conf_country"
+            android:id="@+id/conf_countrylabel"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_countryspinner"
+            android:layout_alignBottom="@+id/conf_countrylabel"
+            android:layout_toRightOf="@+id/conf_countrylabel"
+            android:drawSelectorOnTop="true"
+            android:layout_marginRight="10dp"
+            android:minHeight="10dp"
+            android:minWidth="50dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/conf_cityhint"
+            android:layout_below="@+id/conf_countrylabel"
+            android:layout_alignLeft="@+id/conf_countrylabel"
+            android:layout_marginTop="30dp"
+            android:hint="@string/conf_city_hint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/conf_city_name"
+            android:id="@+id/conf_citynamelabel"
+            android:layout_below="@+id/conf_cityhint"
+            android:layout_alignLeft="@+id/conf_cityhint"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_cityname"
+            android:layout_alignBottom="@+id/conf_citynamelabel"
+            android:layout_toRightOf="@+id/conf_citynamelabel"
+            android:layout_marginLeft="10dp"
+            android:hint="Moscow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conf_city_id"
+            android:id="@+id/conf_cityidlabel"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_below="@+id/conf_citynamelabel"
+            android:layout_alignLeft="@+id/conf_citynamelabel"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/conf_citycode"
+            android:layout_alignBottom="@+id/conf_cityidlabel"
+            android:hint="1234567"
+            android:layout_alignLeft="@+id/conf_cityname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conf_city_long"
+            android:id="@+id/conf_longitudelabel"
+            android:layout_below="@+id/conf_cityidlabel"
+            android:layout_alignLeft="@+id/conf_citynamelabel"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_longitude"
+            android:hint="123"
+            android:layout_alignBottom="@+id/conf_longitudelabel"
+            android:layout_alignLeft="@+id/conf_citycode" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/conf_city_lat"
+            android:id="@+id/conf_latitudelabel"
+            android:layout_below="@+id/conf_longitudelabel"
+            android:layout_alignLeft="@+id/conf_space"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_latitude"
+            android:layout_alignBottom="@+id/conf_latitudelabel"
+            android:layout_alignLeft="@+id/conf_citycode"
+            android:hint="123" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:layout_below="@+id/conf_longitudelabel"
+            android:layout_alignLeft="@+id/conf_longitudelabel"
+            android:layout_marginTop="30dp"
+            android:visibility="visible"
+            android:id="@+id/conf_space" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/conf_unit"
+            android:id="@+id/conf_unitsystemlabel"
+            android:layout_below="@+id/conf_space"
+            android:layout_alignLeft="@+id/conf_space" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_metricgroup"
+            android:layout_below="@+id/conf_unitsystemlabel"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conf_unit_metric"
+                android:id="@+id/conf_metricbutton"
+                android:layout_below="@+id/conf_unitsystemlabel"
+                android:layout_alignLeft="@+id/conf_unitsystemlabel"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conf_unit_imperial"
+                android:id="@+id/conf_imperialbutton"
+                android:layout_alignTop="@+id/conf_metricbutton"
+                android:layout_toRightOf="@+id/conf_metricbutton" />
+
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conf_space2"
+            android:layout_below="@+id/conf_unitsystemlabel"
+            android:layout_alignParentLeft="false"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conf_button_save"
+            android:id="@+id/conf_submitbutton"
+            android:enabled="true"
+            android:onClick="onClick"
+            android:layout_below="@+id/conf_space2"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

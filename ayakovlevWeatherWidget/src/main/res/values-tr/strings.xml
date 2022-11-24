@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hava durumu</string>
+    <string name="app_text">hava widget</string>
+    <string name="title_activity_main">Daha fazla detay</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="conf_country">Ülke:</string>
+    <string name="conf_city_hint">şehri belirlemek için aşağıdakilerden birini seçin</string>
+    <string name="conf_city_name">İl Adı:</string>
+    <string name="conf_city_id">Şehir Kimliği:</string>
+    <string name="conf_city_long">Boylam:</string>
+    <string name="conf_city_lat">Enlem:</string>
+    <string name="conf_unit">birim sistemi</string>
+    <string name="conf_unit_metric">metrik</string>
+    <string name="conf_unit_imperial">imparatorluk</string>
+    <string name="conf_button_save">ayarlarını kaydet</string>
+
+    <string name="ex_temperature">sıcaklık</string>
+    <string name="ex_wind_speed">Rüzgar Hızı</string>
+    <string name="ex_humidity">nem</string>
+    <string name="ex_sunrise">gündoğumu</string>
+    <string name="ex_sunset">günbatımı</string>
+    <string name="ex_longtitude">boylam</string>
+    <string name="ex_latitude">enlem</string>
+    <string name="ex_condition">durum</string>
+    <string name="ex_description">tanım</string>
+    <string name="ex_pressure">basınç</string>
+    <string name="ex_temp_min">asgari sıcaklık</string>
+    <string name="ex_temp_max">azami sıcaklık</string>
+    <string name="ex_wind_degree">Rüzgar derece</string>
+    <string name="ex_cloud_percentage">bulut yüzdesi</string>
+    <string name="ex_citycode">hava kodu</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">m/s</string>
+
+    <string-array name="countries">
+        <item>Ascension Adası</item>
+        <item>Andorra</item>
+        <item>Birleşik Arap Emirlikleri</item>
+        <item>Afganistan</item>
+        <item>Antigua ve Barbuda</item>
+        <item>Anguilla</item>
+        <item>Arnavutluk</item>
+        <item>Ermenistan</item>
+        <item>Hollanda Antilleri</item>
+        <item>Angola</item>
+        <item>Antarktika</item>
+        <item>Arjantin</item>
+        <item>Amerikan Samoası</item>
+        <item>Avusturya</item>
+        <item>Avustralya</item>
+        <item>Aruba</item>
+        <item>Åland Adaları</item>
+        <item>Azerbaycan</item>
+        <item>Bosna Hersek</item>
+        <item>Barbados</item>
+        <item>Bangladeş</item>
+        <item>Belçika</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaristan</item>
+        <item>Bahreyn</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>Saint Barthelemy</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivya</item>
+        <item>Karayip Hollanda</item>
+        <item>Brezilya</item>
+        <item>Bahamalar</item>
+        <item>Butan</item>
+        <item>Bouvet Adası</item>
+        <item>Botsvana</item>
+        <item>Beyaz Rusya</item>
+        <item>Belize</item>
+        <item>Kanada</item>
+        <item>Cocos [Keeling] Adaları</item>
+        <item>Demokratik Kongo Cumhuriyeti</item>
+        <item>Orta Afrika Cumhuriyeti</item>
+        <item>Kongo Cumhuriyeti</item>
+        <item>İsviçre</item>
+        <item>Fildişi Sahili</item>
+        <item>Cook Adaları</item>
+        <item>Şili</item>
+        <item>Kamerun</item>
+        <item>Çin</item>
+        <item>Kolombiya</item>
+        <item>Clipperton Adası</item>
+        <item>Kosta Rika</item>
+        <item>Küba</item>
+        <item>Cape Verde</item>
+        <item>Curaçao</item>
+        <item>Christmas Adası</item>
+        <item>Güney Kıbrıs Rum Kesimi</item>
+        <item>Çek Cumhuriyeti</item>
+        <item>Almanya</item>
+        <item>Diego Garcia</item>
+        <item>Cibuti</item>
+        <item>Danimarka</item>
+        <item>Dominika</item>
+        <item>Dominik Cumhuriyeti</item>
+        <item>Cezayir</item>
+        <item>Ceuta ve Melilla</item>
+        <item>Ekvador</item>
+        <item>Estonya</item>
+        <item>Mısır</item>
+        <item>Batı Sahara</item>
+        <item>Eritre</item>
+        <item>İspanya</item>
+        <item>Etiyopya</item>
+        <item>Avrupa Birliği</item>
+        <item>Finlandiya</item>
+        <item>Fiji</item>
+        <item>Falkland Adaları</item>
+        <item>Mikronezya Federal Eyaletleri</item>
+        <item>Faroe Adaları</item>
+        <item>Fransa</item>
+        <item>Gabon</item>
+        <item>Birleşik Krallık</item>
+        <item>Grenada</item>
+        <item>Gürcistan</item>
+        <item>Fransız Guyanası</item>
+        <item>Guernsey</item>
+        <item>Gana</item>
+        <item>Cebelitarık</item>
+        <item>Grönland</item>
+        <item>Gambiya</item>
+        <item>Gine</item>
+        <item>Guadalupe</item>
+        <item>Ekvator Ginesi</item>
+        <item>Yunanistan</item>
+        <item>Güney Georgia ve Güney Sandwich Adaları</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Gine-Bissau</item>
+        <item>Guyana</item>
+        <item>Hong Kong</item>
+        <item>Heard Adası ve McDonald Adaları</item>
+        <item>Honduras</item>
+        <item>Hırvatistan</item>
+        <item>Haiti</item>
+        <item>Macaristan</item>
+        <item>Kanarya Adaları</item>
+        <item>Endonezya</item>
+        <item>İrlanda</item>
+        <item>İsrail</item>
+        <item>Man Adası</item>
+        <item>Hindistan</item>
+        <item>İngiliz Hint Okyanusu Bölgesi</item>
+        <item>Irak</item>
+        <item>İran</item>
+        <item>İzlanda</item>
+        <item>İtalya</item>
+        <item>Jersey</item>
+        <item>Jamaika</item>
+        <item>Ürdün</item>
+        <item>Japonya</item>
+        <item>Kenya</item>
+        <item>Kırgızistan</item>
+        <item>Kamboçya</item>
+        <item>Kiribati</item>
+        <item>Komorlar</item>
+        <item>Saint Kitts ve Nevis</item>
+        <item>Kuzey Kore</item>
+        <item>Güney Kore</item>
+        <item>Kuveyt</item>
+        <item>Cayman Adaları</item>
+        <item>Kazakistan</item>
+        <item>Laos</item>
+        <item>Lübnan</item>
+        <item>Saint Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberya</item>
+        <item>Lesoto</item>
+        <item>Litvanya</item>
+        <item>Lüksemburg</item>
+        <item>Letonya</item>
+        <item>Libya</item>
+        <item>Fas</item>
+        <item>Monako</item>
+        <item>Moldova</item>
+        <item>Karadağ</item>
+        <item>Saint Martin</item>
+        <item>Madagaskar</item>
+        <item>Marshall Adaları</item>
+        <item>Makedonya</item>
+        <item>Mali</item>
+        <item>Myanmar [Burma]</item>
+        <item>Moğolistan</item>
+        <item>Makao</item>
+        <item>Kuzey Mariana Adaları</item>
+        <item>Martinik</item>
+        <item>Moritanya</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldivler</item>
+        <item>Malavi</item>
+        <item>Meksika</item>
+        <item>Malezya</item>
+        <item>Mozambik</item>
+        <item>Namibya</item>
+        <item>Yeni Kaledonya</item>
+        <item>Nijer</item>
+        <item>Norfolk Adası</item>
+        <item>Nijerya</item>
+        <item>Nikaragua</item>
+        <item>Hollanda</item>
+        <item>Norveç</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>Yeni Zelanda</item>
+        <item>Umman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Fransız Polinezyası</item>
+        <item>Papua Yeni Gine</item>
+        <item>Filipinler</item>
+        <item>Pakistan</item>
+        <item>Polonya</item>
+        <item>Saint Pierre ve Miquelon</item>
+        <item>Pitcairn Adaları</item>
+        <item>Porto Riko</item>
+        <item>Filistin Bölgeleri</item>
+        <item>Portekiz</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Katar</item>
+        <item>Uzak Okyanusya</item>
+        <item>Réunion</item>
+        <item>Romanya</item>
+        <item>Sırbistan</item>
+        <item>Rusya</item>
+        <item>Ruanda</item>
+        <item>Suudi Arabistan</item>
+        <item>Solomon Adaları</item>
+        <item>Seyşeller</item>
+        <item>Sudan</item>
+        <item>İsveç</item>
+        <item>Singapur</item>
+        <item>Saint Helena</item>
+        <item>Slovenya</item>
+        <item>Svalbard ve Jan Mayen Adaları</item>
+        <item>Slovakya</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somali</item>
+        <item>Surinam</item>
+        <item>Güney Sudan</item>
+        <item>São Tomé ve Príncipe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Suriye</item>
+        <item>Svaziland</item>
+        <item>Tristan da Cunha</item>
+        <item>Turks ve Caicos Adaları</item>
+        <item>Çad</item>
+        <item>Fransız Güney Bölgeleri</item>
+        <item>Togo</item>
+        <item>Tayland</item>
+        <item>Tacikistan</item>
+        <item>Tokelau</item>
+        <item>Doğu Timor</item>
+        <item>Türkmenistan</item>
+        <item>Tunus</item>
+        <item>Tonga</item>
+        <item>Türkiye</item>
+        <item>Trinidad ve Tobago</item>
+        <item>Tuvalu</item>
+        <item>Tayvan</item>
+        <item>Tanzanya</item>
+        <item>Ukrayna</item>
+        <item>Uganda</item>
+        <item>ABD Dış Adaları</item>
+        <item>ABD</item>
+        <item>Uruguay</item>
+        <item>Özbekistan</item>
+        <item>Vatikan</item>
+        <item>Saint Vincent ve Grenadinler</item>
+        <item>Venezuela</item>
+        <item>Britanya Virjin Adaları</item>
+        <item>ABD Virjin Adaları</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis ve Futuna Adaları</item>
+        <item>Samoa</item>
+        <item>Yemen</item>
+        <item>Mayotte</item>
+        <item>Güney Afrika</item>
+        <item>Zambiya</item>
+        <item>Zimbabve</item>
+        <item>Bilinmeyen Bölge</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>hafif yağmurlu Oraj rastgele</item>
+        <item>yağmur ile Oraj rastgele</item>
+        <item>yağmur ile Oraj rastgele</item>
+        <item>hafif sağanak</item>
+        <item>sağanak</item>
+        <item>ağır sağanak</item>
+        <item>yırtık sağanak</item>
+        <item>hafif çiseleyen yağmur ile sağanak</item>
+        <item>dense sağanak</item>
+        <item>ağır dense sağanak</item>
+        <item>kolay Çisenti</item>
+        <item>çiseleyen yağmur</item>
+        <item>Ağır yoğunluğu Çisenti</item>
+        <item>kolay Çisenti yağmur</item>
+        <item>Çisenti yağmur</item>
+        <item>Ağır yoğunluğu Çisenti yağmur</item>
+        <item>duş yağmur ve Çisenti</item>
+        <item>sağanak yağmur ve Çisenti</item>
+        <item>duş dense</item>
+        <item>hafif yağmurlu</item>
+        <item>orta yağmur</item>
+        <item>Ağır yoğunluğu yağmur</item>
+        <item>çok ağır yağmur</item>
+        <item>son derece yağmur</item>
+        <item>donan yağmur</item>
+        <item>kolay duş yağmur</item>
+        <item>duş yağmur</item>
+        <item>Ağır yoğunluğu duş yağmur</item>
+        <item>yırtık duş yağmur</item>
+        <item>hafif kar</item>
+        <item>kar</item>
+        <item>yoğun kar</item>
+        <item>karla karışık yağmur</item>
+        <item>duş karla karışık yağmur</item>
+        <item>hafif yağmur ve kar</item>
+        <item>Yağmur ve kar</item>
+        <item>ışık duş kar</item>
+        <item>duş kar</item>
+        <item>sağanak kar</item>
+        <item>sis</item>
+        <item>duman</item>
+        <item>pus</item>
+        <item>Kum / Toz Fırtınası</item>
+        <item>sis</item>
+        <item>kum</item>
+        <item>toz</item>
+        <item>VOLKAN KÜL</item>
+        <item>FERYAT FIGAN</item>
+        <item>KASIRGA</item>
+        <item>gökyüzü açık</item>
+        <item>az bulutlu</item>
+        <item>dağınık bulutlar</item>
+        <item>parçalı çok bulutlu</item>
+        <item>kapalı bulutlar</item>
+        <item>kasırga</item>
+        <item>tropikal fırtına</item>
+        <item>kasırga</item>
+        <item>soğuk</item>
+        <item>ısı</item>
+        <item>rüzgârlı</item>
+        <item>dolu</item>
+        <item>gün batımı</item>
+        <item>dinginlik</item>
+        <item>hafif esinti</item>
+        <item>nazik esinti</item>
+        <item>hafif esinti</item>
+        <item>taze bir esinti</item>
+        <item>kuvvetli esinti</item>
+        <item>Yüksek rüzgar, yakın fırtına</item>
+        <item>fırtına</item>
+        <item>şiddetli fırtına</item>
+        <item>fırtına</item>
+        <item>vahşi fırtına</item>
+        <item>kasırga</item>
+    </string-array>
+
+</resources>

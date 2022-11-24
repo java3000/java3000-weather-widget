@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="city"
+            android:id="@+id/ext_city"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="country"
+            android:id="@+id/ext_country"
+            android:layout_alignParentTop="false"
+            android:singleLine="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/ext_city"
+            android:layout_alignBottom="@+id/ext_city" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:id="@+id/ext_time"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/ext_country"
+            android:layout_alignBottom="@+id/ext_weatherimage" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ext_weatherimage"
+            android:layout_alignLeft="@+id/ext_city"
+            android:layout_below="@+id/ext_city"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ext_temperaturelabel"
+            android:layout_alignParentLeft="false"
+            android:layout_marginLeft="5dp"
+            android:text="@string/ex_temperature"
+            android:layout_below="@+id/ext_weatherimage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ext_windsppedlabel"
+            android:text="@string/ex_wind_speed"
+            android:layout_below="@+id/ext_temperaturelabel"
+            android:layout_alignLeft="@+id/ext_temperaturelabel"
+            android:layout_alignParentLeft="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_humidity"
+            android:id="@+id/ext_humiditylabel"
+            android:layout_below="@+id/ext_windsppedlabel"
+            android:layout_alignLeft="@+id/ext_windsppedlabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_sunrise"
+            android:id="@+id/ext_sunriselabel"
+            android:layout_below="@+id/ext_humiditylabel"
+            android:layout_alignLeft="@+id/ext_humiditylabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_sunset"
+            android:id="@+id/ext_sunsetlabel"
+            android:layout_below="@+id/ext_sunriselabel"
+            android:layout_alignLeft="@+id/ext_sunriselabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_longtitude"
+            android:id="@+id/ext_longitudelabel"
+            android:layout_below="@+id/ext_sunsetlabel"
+            android:layout_alignLeft="@+id/ext_sunsetlabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_latitude"
+            android:id="@+id/ext_latitudelabel"
+            android:layout_below="@+id/ext_longitudelabel"
+            android:layout_alignLeft="@+id/ext_longitudelabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_description"
+            android:id="@+id/ext_descriptionlabel"
+            android:layout_below="@+id/ext_latitudelabel"
+            android:layout_alignLeft="@+id/ext_latitudelabel"
+            android:lines="1"
+            android:layout_alignBottom="@+id/ext_description" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_pressure"
+            android:id="@+id/ext_pressurelabel"
+            android:layout_below="@+id/ext_descriptionlabel"
+            android:layout_alignLeft="@+id/ext_descriptionlabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_temp_min"
+            android:id="@+id/ext_tempminlabel"
+            android:layout_below="@+id/ext_pressurelabel"
+            android:layout_alignLeft="@+id/ext_pressurelabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_temp_max"
+            android:id="@+id/ext_tempmaxlabel"
+            android:layout_below="@+id/ext_tempminlabel"
+            android:layout_alignLeft="@+id/ext_tempminlabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_wind_degree"
+            android:id="@+id/ext_winddegreelabel"
+            android:layout_below="@+id/ext_tempmaxlabel"
+            android:layout_alignLeft="@+id/ext_tempmaxlabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_cloud_percentage"
+            android:id="@+id/ext_cloudpercentagelabel"
+            android:layout_below="@+id/ext_winddegreelabel"
+            android:layout_alignLeft="@+id/ext_winddegreelabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_temperature"
+            android:layout_alignParentEnd="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_above="@+id/ext_windsppedlabel"
+            android:layout_alignRight="@+id/ext_time"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_marginRight="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_windspeed"
+            android:layout_below="@+id/ext_temperature"
+            android:layout_alignLeft="@+id/ext_temperature"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_humidity"
+            android:layout_below="@+id/ext_windspeed"
+            android:layout_alignLeft="@+id/ext_windspeed"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_sunrise"
+            android:layout_below="@+id/ext_humidity"
+            android:layout_alignLeft="@+id/ext_humidity"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_sunset"
+            android:layout_below="@+id/ext_sunrise"
+            android:layout_alignLeft="@+id/ext_sunrise"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_longitude"
+            android:layout_below="@+id/ext_sunset"
+            android:layout_alignLeft="@+id/ext_sunset"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_latitude"
+            android:layout_below="@+id/ext_longitude"
+            android:layout_alignLeft="@+id/ext_longitude"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_description"
+            android:layout_below="@+id/ext_latitude"
+            android:layout_alignLeft="@+id/ext_latitude"
+            android:autoText="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_pressure"
+            android:layout_below="@+id/ext_description"
+            android:layout_alignLeft="@+id/ext_description"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_tempmin"
+            android:layout_below="@+id/ext_pressure"
+            android:layout_alignLeft="@+id/ext_pressure"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_tempmax"
+            android:layout_below="@+id/ext_tempmin"
+            android:layout_alignLeft="@+id/ext_tempmin"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_winddegree"
+            android:layout_below="@+id/ext_tempmax"
+            android:layout_alignLeft="@+id/ext_tempmax"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/ext_cloudpercentage"
+            android:layout_below="@+id/ext_winddegree"
+            android:layout_alignLeft="@+id/ext_winddegree"
+            android:maxLines="1" />
+
+    </RelativeLayout>
+
+</FrameLayout>

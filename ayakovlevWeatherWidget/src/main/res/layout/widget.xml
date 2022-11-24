@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    style="@android:style/Widget">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/pusharea"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:minWidth="250dp"
+        android:minHeight="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wid_temperatureimage"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/_temperature"
+            android:layout_alignTop="@+id/wid_temperature"
+            android:layout_alignBottom="@+id/wid_temperature" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wid_windspeedimage"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/_windspeed"
+            android:layout_alignTop="@+id/wid_windspeed"
+            android:layout_alignBottom="@+id/wid_windspeed" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wid_humidityimage"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/_humidity"
+            android:layout_alignTop="@+id/wid_humidity"
+            android:layout_alignBottom="@+id/wid_humidity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="temperature"
+            android:id="@+id/wid_temperature"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/wid_windspeed"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wind speed"
+            android:id="@+id/wid_windspeed"
+            android:textAlignment="viewEnd"
+            android:layout_below="@+id/wid_temperature"
+            android:layout_toRightOf="@+id/wid_temperatureimage"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="humidity"
+            android:id="@+id/wid_humidity"
+            android:textAlignment="viewEnd"
+            android:layout_below="@+id/wid_windspeed"
+            android:layout_toRightOf="@+id/wid_temperatureimage"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="city"
+            android:id="@+id/wid_cityname"
+            android:layout_alignParentEnd="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:enabled="true"
+            android:singleLine="true"
+            android:layout_alignParentStart="false"
+            android:autoText="false"
+            android:typeface="normal"
+            android:lines="1"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/wid_countyname" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/wid_icon"
+            android:enabled="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:textAlignment="viewEnd"
+            android:singleLine="true"
+            android:minHeight="32dp"
+            android:minWidth="32dp"
+            android:layout_below="@+id/wid_cityname"
+            android:layout_alignRight="@+id/wid_countyname"
+            android:layout_alignBottom="@+id/wid_humidity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="country"
+            android:id="@+id/wid_countyname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/wid_cityname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(-10.00/-10.00)"
+            android:id="@+id/wid_minmax"
+            android:layout_above="@+id/wid_windspeed"
+            android:layout_toRightOf="@+id/wid_temperature"
+            android:layout_marginLeft="5dp" />
+    </RelativeLayout>
+
+</FrameLayout>

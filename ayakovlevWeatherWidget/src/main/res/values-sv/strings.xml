@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Väder</string>
+    <string name="app_text">Väder widget</string>
+    <string name="title_activity_main">Mer information</string>
+    <string name="action_settings">Inställningar</string>
+
+    <string name="conf_country">Land:</string>
+    <string name="conf_city_hint">Välj ett av följande alternativ för att specificera staden</string>
+    <string name="conf_city_name">Namn på stad:</string>
+    <string name="conf_city_id">Stads ID:</string>
+    <string name="conf_city_long">Longitud:</string>
+    <string name="conf_city_lat">latitud:</string>
+    <string name="conf_unit">Enhetssystem</string>
+    <string name="conf_unit_metric">metriska</string>
+    <string name="conf_unit_imperial">imperialistisk</string>
+    <string name="conf_button_save">Spara inställningar</string>
+
+    <string name="ex_temperature">Temperatur</string>
+    <string name="ex_wind_speed">Vindhastighet</string>
+    <string name="ex_humidity">Fuktighet</string>
+    <string name="ex_sunrise">soluppgång</string>
+    <string name="ex_sunset">solnedgång</string>
+    <string name="ex_longtitude">Longitud</string>
+    <string name="ex_latitude">latitud</string>
+    <string name="ex_condition">skick</string>
+    <string name="ex_description">Beskrivning</string>
+    <string name="ex_pressure">Lufttryck</string>
+    <string name="ex_temp_min">Minimal temperatur</string>
+    <string name="ex_temp_max">Maximal temperatur</string>
+    <string name="ex_wind_degree">Vind grad</string>
+    <string name="ex_cloud_percentage">Moln procentandel</string>
+    <string name="ex_citycode">Väder-kod</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">m/s</string>
+
+    <string-array name="countries">
+        <item>Ascension</item>
+        <item>Andorra</item>
+        <item>Förenade Arabemiraten</item>
+        <item>Afghanistan</item>
+        <item>Antigua och Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albanien</item>
+        <item>Armenien</item>
+        <item>Nederländska Antillerna</item>
+        <item>Angola</item>
+        <item>Antarktis</item>
+        <item>Argentina</item>
+        <item>Amerikanska Samoa</item>
+        <item>Österrike</item>
+        <item>Australien</item>
+        <item>Aruba</item>
+        <item>Åland</item>
+        <item>Azerbajdzjan</item>
+        <item>Bosnien och Hercegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgien</item>
+        <item>Burkina Faso</item>
+        <item>Bulgarien</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>S:t Barthélemy</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivia</item>
+        <item>Karibiska Nederländerna</item>
+        <item>Brasilien</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Bouvetön</item>
+        <item>Botswana</item>
+        <item>Vitryssland</item>
+        <item>Belize</item>
+        <item>Kanada</item>
+        <item>Kokosöarna</item>
+        <item>Kongo-Kinshasa</item>
+        <item>Centralafrikanska republiken</item>
+        <item>Kongo-Brazzaville</item>
+        <item>Schweiz</item>
+        <item>Elfenbenskusten</item>
+        <item>Cooköarna</item>
+        <item>Chile</item>
+        <item>Kamerun</item>
+        <item>Kina</item>
+        <item>Colombia</item>
+        <item>Clippertonön</item>
+        <item>Costa Rica</item>
+        <item>Kuba</item>
+        <item>Kap Verde</item>
+        <item>Curaçao</item>
+        <item>Julön</item>
+        <item>Cypern</item>
+        <item>Tjeckien</item>
+        <item>Tyskland</item>
+        <item>Diego Garcia</item>
+        <item>Djibouti</item>
+        <item>Danmark</item>
+        <item>Dominica</item>
+        <item>Dominikanska republiken</item>
+        <item>Algeriet</item>
+        <item>Ceuta och Melilla</item>
+        <item>Ecuador</item>
+        <item>Estland</item>
+        <item>Egypten</item>
+        <item>Västsahara</item>
+        <item>Eritrea</item>
+        <item>Spanien</item>
+        <item>Etiopien</item>
+        <item>Europeiska unionen</item>
+        <item>Finland</item>
+        <item>Fiji</item>
+        <item>Falklandsöarna</item>
+        <item>Mikronesien</item>
+        <item>Färöarna</item>
+        <item>Frankrike</item>
+        <item>Gabon</item>
+        <item>Storbritannien</item>
+        <item>Grenada</item>
+        <item>Georgien</item>
+        <item>Franska Guyana</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grönland</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Ekvatorialguinea</item>
+        <item>Grekland</item>
+        <item>Sydgeorgien och Sydsandwichöarna</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hongkong</item>
+        <item>Heard- och McDonaldöarna</item>
+        <item>Honduras</item>
+        <item>Kroatien</item>
+        <item>Haiti</item>
+        <item>Ungern</item>
+        <item>Kanarieöarna</item>
+        <item>Indonesien</item>
+        <item>Irland</item>
+        <item>Israel</item>
+        <item>Isle of Man</item>
+        <item>Indien</item>
+        <item>Brittiska Indiska oceanöarna</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Island</item>
+        <item>Italien</item>
+        <item>Jersey</item>
+        <item>Jamaica</item>
+        <item>Jordanien</item>
+        <item>Japan</item>
+        <item>Kenya</item>
+        <item>Kirgizistan</item>
+        <item>Kambodja</item>
+        <item>Kiribati</item>
+        <item>Komorerna</item>
+        <item>S:t Kitts och Nevis</item>
+        <item>Nordkorea</item>
+        <item>Sydkorea</item>
+        <item>Kuwait</item>
+        <item>Caymanöarna</item>
+        <item>Kazakstan</item>
+        <item>Laos</item>
+        <item>Libanon</item>
+        <item>S:t Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Litauen</item>
+        <item>Luxemburg</item>
+        <item>Lettland</item>
+        <item>Libyen</item>
+        <item>Marocko</item>
+        <item>Monaco</item>
+        <item>Moldavien</item>
+        <item>Montenegro</item>
+        <item>S:t Martin</item>
+        <item>Madagaskar</item>
+        <item>Marshallöarna</item>
+        <item>Makedonien</item>
+        <item>Mali</item>
+        <item>Myanmar</item>
+        <item>Mongoliet</item>
+        <item>Macao</item>
+        <item>Nordmarianerna</item>
+        <item>Martinique</item>
+        <item>Mauretanien</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldiverna</item>
+        <item>Malawi</item>
+        <item>Mexiko</item>
+        <item>Malaysia</item>
+        <item>Moçambique</item>
+        <item>Namibia</item>
+        <item>Nya Kaledonien</item>
+        <item>Niger</item>
+        <item>Norfolkön</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Nederländerna</item>
+        <item>Norge</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>Nya Zeeland</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Franska Polynesien</item>
+        <item>Papua Nya Guinea</item>
+        <item>Filippinerna</item>
+        <item>Pakistan</item>
+        <item>Polen</item>
+        <item>S:t Pierre och Miquelon</item>
+        <item>Pitcairnöarna</item>
+        <item>Puerto Rico</item>
+        <item>Palestinska territoriet</item>
+        <item>Portugal</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>Yttre öar i Oceanien</item>
+        <item>Réunion</item>
+        <item>Rumänien</item>
+        <item>Serbien</item>
+        <item>Ryssland</item>
+        <item>Rwanda</item>
+        <item>Saudiarabien</item>
+        <item>Salomonöarna</item>
+        <item>Seychellerna</item>
+        <item>Sudan</item>
+        <item>Sverige</item>
+        <item>Singapore</item>
+        <item>S:t Helena</item>
+        <item>Slovenien</item>
+        <item>Svalbard och Jan Mayen</item>
+        <item>Slovakien</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Surinam</item>
+        <item>Sydsudan</item>
+        <item>São Tomé och Príncipe</item>
+        <item>El Salvador</item>
+        <item>S:t Martin (nederländska delend)</item>
+        <item>Syrien</item>
+        <item>Swaziland</item>
+        <item>Tristan da Cunha</item>
+        <item>Turks- och Caicosöarna</item>
+        <item>Tchad</item>
+        <item>Franska Sydterritorierna</item>
+        <item>Togo</item>
+        <item>Thailand</item>
+        <item>Tadzjikistan</item>
+        <item>Tokelau</item>
+        <item>Östtimor</item>
+        <item>Turkmenistan</item>
+        <item>Tunisien</item>
+        <item>Tonga</item>
+        <item>Turkiet</item>
+        <item>Trinidad och Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Ukraina</item>
+        <item>Uganda</item>
+        <item>USA:s yttre öar</item>
+        <item>USA</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vatikanstaten</item>
+        <item>S:t Vincent och Grenadinerna</item>
+        <item>Venezuela</item>
+        <item>Brittiska Jungfruöarna</item>
+        <item>Amerikanska Jungfruöarna</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis- och Futunaöarna</item>
+        <item>Samoa</item>
+        <item>Jemen</item>
+        <item>Mayotte</item>
+        <item>Sydafrika</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>okänd region</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>åska med lätt regn</item>
+        <item>åskväder med regn</item>
+        <item>åskväder med kraftigt regn</item>
+        <item>lätt åskväder</item>
+        <item>åskväder</item>
+        <item>kraftigt åskväder</item>
+        <item>trasig åskväder</item>
+        <item>åska med lätt duggregn</item>
+        <item>åska med duggregn</item>
+        <item>åska med tung duggregn</item>
+        <item>ljusintensitet duggregn</item>
+        <item>duggregn</item>
+        <item>högintensiv duggregn</item>
+        <item>ljusintensitet duggregn</item>
+        <item>duggregn</item>
+        <item>högintensiv duggregn</item>
+        <item>duschen regn och duggregn</item>
+        <item>tung duschen regn och duggregn</item>
+        <item>duschduggregn</item>
+        <item>lätt regn</item>
+        <item>måttligt regn</item>
+        <item>högintensiv regn</item>
+        <item>mycket kraftigt regn</item>
+        <item>ytterlighet regn</item>
+        <item>kylt regn</item>
+        <item>ljusintensitet duschregn</item>
+        <item>duschregn</item>
+        <item>högintensiv duschduggregn</item>
+        <item>trasig duschduggregn</item>
+        <item>uppehåll</item>
+        <item>snö</item>
+        <item>tung snö</item>
+        <item>snöblandat regn</item>
+        <item>duschen slask</item>
+        <item>lätt regn och snö</item>
+        <item>regn och snö</item>
+        <item>ljusdusch snö</item>
+        <item>duschen snö</item>
+        <item>tung duschen snö</item>
+        <item>dimma</item>
+        <item>rök</item>
+        <item>dis</item>
+        <item>Sand / Damm Virvlar</item>
+        <item>dimma</item>
+        <item>sand</item>
+        <item>damm</item>
+        <item>VULKANISK ASKA</item>
+        <item>STORMBYAR</item>
+        <item>TORNADO</item>
+        <item>himlen är klar</item>
+        <item>några moln</item>
+        <item>spridda moln</item>
+        <item>brutna moln</item>
+        <item>mulet moln</item>
+        <item>tornado</item>
+        <item>tropisk storm</item>
+        <item>orkan</item>
+        <item>kyla</item>
+        <item>hetta</item>
+        <item>blåsig</item>
+        <item>hagel</item>
+        <item>miljö</item>
+        <item>stillhet</item>
+        <item>Svag vind</item>
+        <item>lätt bris</item>
+        <item>måttlig vind</item>
+        <item>Frisk vind</item>
+        <item>stark vind</item>
+        <item>Hög vind, nära kuling</item>
+        <item>kuling</item>
+        <item>Svår kuling</item>
+        <item>storm</item>
+        <item>våldsam storm</item>
+        <item>orkan</item>
+    </string-array>
+
+</resources>

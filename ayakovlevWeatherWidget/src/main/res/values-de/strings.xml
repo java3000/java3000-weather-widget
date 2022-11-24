@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wetter</string>
+    <string name="app_text">Wetter-Widget</string>
+    <string name="title_activity_main">mehr Details</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="conf_country">Land:</string>
+    <string name="conf_city_hint">Wählen Sie eine der nachfolgenden, um die Stadt angeben</string>
+    <string name="conf_city_name">Name der Stadt:</string>
+    <string name="conf_city_id">Stadt-ID:</string>
+    <string name="conf_city_long">Länge:</string>
+    <string name="conf_city_lat">Breite:</string>
+    <string name="conf_unit">Einheitensystem</string>
+    <string name="conf_unit_metric">metrisch</string>
+    <string name="conf_unit_imperial">kaiserlich</string>
+    <string name="conf_button_save">Einstellungen speichern</string>
+
+    <string name="ex_temperature">Temperatur</string>
+    <string name="ex_wind_speed">Windgeschwindigkeit</string>
+    <string name="ex_humidity">Luftfeuchtigkeit</string>
+    <string name="ex_sunrise">Sonnenaufgang</string>
+    <string name="ex_sunset">Sonnenuntergang</string>
+    <string name="ex_longtitude">Länge</string>
+    <string name="ex_latitude">Breite</string>
+    <string name="ex_condition">Zustand</string>
+    <string name="ex_description">Beschreibung</string>
+    <string name="ex_pressure">Druck</string>
+    <string name="ex_temp_min">Minimale Temperatur</string>
+    <string name="ex_temp_max">Maximale Temperatur</string>
+    <string name="ex_wind_degree">Wind Grad</string>
+    <string name="ex_cloud_percentage">Wolkenprozent</string>
+    <string name="ex_citycode">Wetter-Code</string>
+
+    <string name="pascal">hPa</string>
+    <string name="windsuffix">m/s</string>
+
+    <string-array name="countries">
+        <item>Ascension</item>
+        <item>Andorra</item>
+        <item>Vereinigte Arabische Emirate</item>
+        <item>Afghanistan</item>
+        <item>Antigua und Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albanien</item>
+        <item>Armenien</item>
+        <item>Niederländische Antillen</item>
+        <item>Angola</item>
+        <item>Antarktis</item>
+        <item>Argentinien</item>
+        <item>Amerikanisch-Samoa</item>
+        <item>Österreich</item>
+        <item>Australien</item>
+        <item>Aruba</item>
+        <item>Alandinseln</item>
+        <item>Aserbaidschan</item>
+        <item>Bosnien und Herzegowina</item>
+        <item>Barbados</item>
+        <item>Bangladesch</item>
+        <item>Belgien</item>
+        <item>Burkina Faso</item>
+        <item>Bulgarien</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>St. Barthélemy</item>
+        <item>Bermuda</item>
+        <item>Brunei Darussalam</item>
+        <item>Bolivien</item>
+        <item>Karibische Niederlande</item>
+        <item>Brasilien</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Bouvetinsel</item>
+        <item>Botsuana</item>
+        <item>Belarus</item>
+        <item>Belize</item>
+        <item>Kanada</item>
+        <item>Kokosinseln</item>
+        <item>Kongo [Demokratische Republik]</item>
+        <item>Zentralafrikanische Republik</item>
+        <item>Kongo [Republik]</item>
+        <item>Schweiz</item>
+        <item>Côte d’Ivoire</item>
+        <item>Cookinseln</item>
+        <item>Chile</item>
+        <item>Kamerun</item>
+        <item>China</item>
+        <item>Kolumbien</item>
+        <item>Clipperton-Insel</item>
+        <item>Costa Rica</item>
+        <item>Kuba</item>
+        <item>Kap Verde</item>
+        <item>Curaçao</item>
+        <item>Weihnachtsinsel</item>
+        <item>Zypern</item>
+        <item>Tschechische Republik</item>
+        <item>Deutschland</item>
+        <item>Diego Garcia</item>
+        <item>Dschibuti</item>
+        <item>Dänemark</item>
+        <item>Dominica</item>
+        <item>Dominikanische Republik</item>
+        <item>Algerien</item>
+        <item>Ceuta und Melilla</item>
+        <item>Ecuador</item>
+        <item>Estland</item>
+        <item>Ägypten</item>
+        <item>Westsahara</item>
+        <item>Eritrea</item>
+        <item>Spanien</item>
+        <item>Äthiopien</item>
+        <item>Europäische Union</item>
+        <item>Finnland</item>
+        <item>Fidschi</item>
+        <item>Falklandinseln</item>
+        <item>Mikronesien</item>
+        <item>Färöer</item>
+        <item>Frankreich</item>
+        <item>Gabun</item>
+        <item>Vereinigtes Königreich</item>
+        <item>Grenada</item>
+        <item>Georgien</item>
+        <item>Französisch-Guayana</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grönland</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Äquatorialguinea</item>
+        <item>Griechenland</item>
+        <item>Südgeorgien und die Südlichen Sandwichinseln</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hongkong</item>
+        <item>Heard- und McDonald-Inseln</item>
+        <item>Honduras</item>
+        <item>Kroatien</item>
+        <item>Haiti</item>
+        <item>Ungarn</item>
+        <item>Kanarische Inseln</item>
+        <item>Indonesien</item>
+        <item>Irland</item>
+        <item>Israel</item>
+        <item>Isle of Man</item>
+        <item>Indien</item>
+        <item>Britisches Territorium im Indischen Ozean</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Island</item>
+        <item>Italien</item>
+        <item>Jersey</item>
+        <item>Jamaika</item>
+        <item>Jordanien</item>
+        <item>Japan</item>
+        <item>Kenia</item>
+        <item>Kirgisistan</item>
+        <item>Kambodscha</item>
+        <item>Kiribati</item>
+        <item>Komoren</item>
+        <item>St. Kitts und Nevis</item>
+        <item>Demokratische Volksrepublik Korea</item>
+        <item>Republik Korea</item>
+        <item>Kuwait</item>
+        <item>Kaimaninseln</item>
+        <item>Kasachstan</item>
+        <item>Laos</item>
+        <item>Libanon</item>
+        <item>St. Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Litauen</item>
+        <item>Luxemburg</item>
+        <item>Lettland</item>
+        <item>Libyen</item>
+        <item>Marokko</item>
+        <item>Monaco</item>
+        <item>Republik Moldau</item>
+        <item>Montenegro</item>
+        <item>St. Martin</item>
+        <item>Madagaskar</item>
+        <item>Marshallinseln</item>
+        <item>Mazedonien</item>
+        <item>Mali</item>
+        <item>Mongolei</item>
+        <item>Myanmar</item>
+        <item>Sonderverwaltungszone Macao</item>
+        <item>Nördliche Marianen</item>
+        <item>Martinique</item>
+        <item>Mauretanien</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Malediven</item>
+        <item>Malawi</item>
+        <item>Mexiko</item>
+        <item>Malaysia</item>
+        <item>Mosambik</item>
+        <item>Namibia</item>
+        <item>Neukaledonien</item>
+        <item>Niger</item>
+        <item>Norfolkinsel</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Niederlande</item>
+        <item>Norwegen</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>Neuseeland</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Französisch-Polynesien</item>
+        <item>Papua-Neuguinea</item>
+        <item>Philippinen</item>
+        <item>Pakistan</item>
+        <item>Polen</item>
+        <item>St. Pierre und Miquelon</item>
+        <item>Pitcairninseln</item>
+        <item>Puerto Rico</item>
+        <item>Palästinensische Autonomiegebiete</item>
+        <item>Portugal</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Katar</item>
+        <item>Äußeres Ozeanien</item>
+        <item>Réunion</item>
+        <item>Rumänien</item>
+        <item>Serbien</item>
+        <item>Russische Föderation</item>
+        <item>Ruanda</item>
+        <item>Saudi-Arabien</item>
+        <item>Salomonen</item>
+        <item>Seychellen</item>
+        <item>Sudan</item>
+        <item>Schweden</item>
+        <item>Singapur</item>
+        <item>St. Helena</item>
+        <item>Slowenien</item>
+        <item>Svalbard und Jan Mayen</item>
+        <item>Slowakei</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Suriname</item>
+        <item>Südsudan</item>
+        <item>São Tomé und Príncipe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Syrien</item>
+        <item>Swasiland</item>
+        <item>Tristan da Cunha</item>
+        <item>Turks- und Caicosinseln</item>
+        <item>Tschad</item>
+        <item>Französische Süd- und Antarktisgebiete</item>
+        <item>Togo</item>
+        <item>Thailand</item>
+        <item>Tadschikistan</item>
+        <item>Tokelau</item>
+        <item>Osttimor</item>
+        <item>Turkmenistan</item>
+        <item>Tunesien</item>
+        <item>Tonga</item>
+        <item>Türkei</item>
+        <item>Trinidad und Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tansania</item>
+        <item>Ukraine</item>
+        <item>Uganda</item>
+        <item>Amerikanisch-Ozeanien</item>
+        <item>Vereinigte Staaten</item>
+        <item>Uruguay</item>
+        <item>Usbekistan</item>
+        <item>Vatikanstadt</item>
+        <item>St. Vincent und die Grenadinen</item>
+        <item>Venezuela</item>
+        <item>Britische Jungferninseln</item>
+        <item>Amerikanische Jungferninseln</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis und Futuna</item>
+        <item>Samoa</item>
+        <item>Jemen</item>
+        <item>Mayotte</item>
+        <item>Südafrika</item>
+        <item>Sambia</item>
+        <item>Simbabwe</item>
+        <item>Unbekannte Region</item>
+    </string-array>
+
+    <string-array name="weatherconditions">
+        <item>ein Gewitter mit Licht regen</item>
+        <item>ein Gewitter mit regen</item>
+        <item>ein Gewitter mit schweren regen</item>
+        <item>Lichtgewitter</item>
+        <item>Gewitter</item>
+        <item>schweres Gewitter</item>
+        <item>zerlumpten Gewitter</item>
+        <item>Gewitter mit Nieselregen</item>
+        <item>Gewitter mit Regen</item>
+        <item>Gewitter mit starkem Regen</item>
+        <item>Lichtintensität Nieselregen</item>
+        <item>Nieselregen</item>
+        <item>Schwer Intensität Nieselregen</item>
+        <item>Lichtintensität Nieselregen regen</item>
+        <item>Nieselregen regen</item>
+        <item>Schwer Intensität Nieselregen regen</item>
+        <item>Dusche regen und Nieselregen</item>
+        <item>schwere Dusche regen und Nieselregen</item>
+        <item>Dusche Nieselregen</item>
+        <item>Licht regen</item>
+        <item>moderate regen</item>
+        <item>schwere regen Intensität</item>
+        <item>sehr schwere regen</item>
+        <item>extreme regen</item>
+        <item>Einfrieren regen</item>
+        <item>Lichtintensität Dusche regen</item>
+        <item>Dusche regen</item>
+        <item>Schwer Intensität Dusche regen</item>
+        <item>zerlumpten Dusche regen</item>
+        <item>leichter Schnee</item>
+        <item>Schnee</item>
+        <item>schweren Schnee</item>
+        <item>Schneeregen</item>
+        <item>Dusche Schneeregen</item>
+        <item>Licht regen und Schnee</item>
+        <item>regen und Schnee</item>
+        <item>Lichtdusche Schnee</item>
+        <item>Dusche Schnee</item>
+        <item>schwere Dusche Schnee</item>
+        <item>Nebel</item>
+        <item>Rauch</item>
+        <item>Dunst</item>
+        <item>Sand / Staub Wirbelt</item>
+        <item>Nebel</item>
+        <item>Sand</item>
+        <item>Staub</item>
+        <item>Vulkanasche</item>
+        <item>Sturmböen</item>
+        <item>Tornado</item>
+        <item>Himmel klar</item>
+        <item>einige Wolken</item>
+        <item>aufgelockert bewölkt</item>
+        <item>aufgelockert bewölkt</item>
+        <item>Wolken bedeckt</item>
+        <item>Tornado</item>
+        <item>Tropensturm</item>
+        <item>Hurrikan</item>
+        <item>Kälte</item>
+        <item>heiß</item>
+        <item>windig</item>
+        <item>Hagel</item>
+        <item>Verdickung</item>
+        <item>Windstille</item>
+        <item>Leichte Brise</item>
+        <item>Sanfte Brise</item>
+        <item>Sanfte Brise</item>
+        <item>Frische Brise</item>
+        <item>starke Brise</item>
+        <item>Starker Wind, Sturm in der Nähe von</item>
+        <item>Sturm</item>
+        <item>Schwere Sturm</item>
+        <item>Unwetter</item>
+        <item>Heftige Sturm</item>
+        <item>Orkan</item>
+    </string-array>
+
+</resources>
